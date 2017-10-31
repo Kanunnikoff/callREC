@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@drawable/ic_grade_black_24px"
+            android:title="@string/rate" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/share" />
+        <item
+            android:id="@+id/nav_apps"
+            android:icon="@drawable/ic_shop_two_black_24px"
+            android:title="@string/view_other_apps" />
+    </group>
+
+    <item android:title="@string/remove_ads">
+        <menu>
+            <item
+                android:id="@+id/nav_buy"
+                android:icon="@drawable/ic_shopping_cart_black_24px"
+                android:title="@string/buy" />
+        </menu>
+    </item>
+
+</menu>
